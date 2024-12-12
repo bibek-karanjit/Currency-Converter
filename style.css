@@ -9,15 +9,17 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #ebebd3;
+  /* background-color: #ebebd3; */
+  background: url(bg.jpg);
 }
 
 .container {
+  z-index: 1;
   background-color: white;
   padding: 3rem;
   border-radius: 1rem;
   min-height: 45vh;
-  min-width: 20vw;
+  min-width: 18vw;
 }
 
 .container h2 {
